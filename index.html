@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Images</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section with Navigation Links -->
+    <header class="bg-primary text-white">
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-12 text-center">
+            <h1>Welcome to the Random Image Gallery</h1>
+            <p>Enjoy a selection of randomly generated images</p>
+
+            <!-- Navbar links -->
+            <nav>
+              <a href="#" class="text-white mx-3">Home</a>
+              <a href="#about" class="text-white mx-3">About</a>
+              <a href="#gallery" class="text-white mx-3">Gallery</a>
+              <a href="#contact" class="text-white mx-3">Contact</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="container my-5">
+      <!-- Row for images -->
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <img
+            src="https://picsum.photos/300/200?random=1"
+            class="img-fluid mb-3"
+            alt="Random Image 1"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://picsum.photos/300/200?random=2"
+            class="img-fluid mb-3"
+            alt="Random Image 2"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://picsum.photos/300/200?random=3"
+            class="img-fluid mb-3"
+            alt="Random Image 3"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
